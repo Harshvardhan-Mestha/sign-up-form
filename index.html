@@ -28,34 +28,36 @@
                     <form action="">
                         <label for="first_name">FIRST NAME</label>
                         <br>
-                        <input type="text">
+                        <input type="text" id="first_name" minlength="3">
                     </form>
                     <form action="">
                         <label for="email">EMAIL</label>
                         <br>
-                        <input type="text">
+                        <input type="email" id="email">
                     </form>
                     <form action="">
-                        <label for="password">PASSWORD</label>
+                        <label for="user_password">PASSWORD</label>
                         <br>
-                        <input type="text">
+                        <input type="password" id="user_password" name="password">
+                        <div id="mism"></div>
                     </form>
                 </div>
                 <div class="forms">
                     <form action="">
                         <label for="last_name">LAST NAME</label>
                         <br>
-                        <input type="text">
+                        <input type="text" minlength="3">
                     </form>
                     <form action="">
                         <label for="phone_number">PHONE NUMBER</label>
                         <br>
-                        <input type="text">
+                        <input type="number">
                     </form> 
                     <form action="">
-                        <label for="cnfrm_password">CONFIRM PASSWORD</label>
+                        <label for="user_password_cnf">CONFIRM PASSWORD</label>
                         <br>
-                        <input type="text">
+                        <input type="password" id="user_password_cnf" name="password_cnf">
+                        
                     </form>
                 </div>
             </div>
@@ -68,6 +70,6 @@
         </div>
 
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>

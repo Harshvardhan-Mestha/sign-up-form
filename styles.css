@@ -142,3 +142,16 @@ a{
     font-size: 20px;
     font-weight: 600;
 }
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: #E5E7EB;
+}
+  
+#mism{
+    color: red;
+    font-size: 10px;
+}
