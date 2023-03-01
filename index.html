@@ -2,51 +2,68 @@
 <html >
 <head>
     <title>Sign-up</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="left">
-        <img src="assets/bgimg.jpg">
+        <img src="assets/bgimg.jpg" id="bgimg">
         <div id="text_overlay">
-            <img src="assets/odin-lined.png">
-            <p>ODIN</p>
+            <img src="assets/odin-lined.png" id="odin">
+            <p id="overlay_text">ODIN</p>
+        </div>
+        <div id="credit">
+            Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         </div>
     </div>
     <div id="right">
         <div id="top">
-
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+            Sign up now to get started.</p>
+            <p>You know you want to.</p>
         </div>
         <div id="mid">
-            <form action="">
-                <label for="first_name">First Name</label>
-                <input type="text">
-            </form>
-            <form action="">
-                <label for="last_name">Last Name</label>
-                <input type="text">
-            </form>
-            <form action="">
-                <label for="email">Email</label>
-                <input type="text">
-            </form>
-            <form action="">
-                <label for="phone_number">Phone Number</label>
-                <input type="text">
-            </form>
-            <form action="">
-                <label for="password">Password</label>
-                <input type="text">
-            </form>
-            <form action="">
-                <label for="cnfrm_password">Confirm_Password</label>
-                <input type="text">
-            </form>
-
-
+            <p id="mid_p">Let's do this!</p>
+            <div id="form_container">
+                <div class="forms">
+                    <form action="">
+                        <label for="first_name">FIRST NAME</label>
+                        <br>
+                        <input type="text">
+                    </form>
+                    <form action="">
+                        <label for="email">EMAIL</label>
+                        <br>
+                        <input type="text">
+                    </form>
+                    <form action="">
+                        <label for="password">PASSWORD</label>
+                        <br>
+                        <input type="text">
+                    </form>
+                </div>
+                <div class="forms">
+                    <form action="">
+                        <label for="last_name">LAST NAME</label>
+                        <br>
+                        <input type="text">
+                    </form>
+                    <form action="">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <br>
+                        <input type="text">
+                    </form> 
+                    <form action="">
+                        <label for="cnfrm_password">CONFIRM PASSWORD</label>
+                        <br>
+                        <input type="text">
+                    </form>
+                </div>
+            </div>
         </div>
         <div id="btm">
-            <button type="submit"></button>
+            <button type="submit">Create Account</button>
             <p>Already have an account? 
-                <a href="">Log in</a>
+                <a href="" id="lgin">Log in</a>
             </p>
         </div>
 
